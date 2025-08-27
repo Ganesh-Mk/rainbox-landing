@@ -1,9 +1,9 @@
-import type { Metadata } from "next"
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | Rainbox",
-  description: "Read the privacy policy for the Rainbox application."
-}
+  description: "Read the privacy policy for the Rainbox application.",
+};
 
 const PrivacyPolicyPage = () => {
   return (
@@ -249,8 +249,8 @@ const PrivacyPolicyPage = () => {
             <ul className="list-disc space-y-2 pl-5 text-muted-foreground">
               <li>The right to access and update your personal information.</li>
               <li>
-                The right to request deletion of your data ("right to be
-                forgotten").
+                The right to request deletion of your data (&quot;right to be
+                forgotten&quot;).
               </li>
               <li>
                 The right to restrict or object to the processing of your
@@ -303,7 +303,7 @@ const PrivacyPolicyPage = () => {
           {/* Section 9: Children's Privacy */}
           <div className="space-y-4">
             <h2 className="text-2xl font-semibold text-muted-foreground">
-              9. Children's Privacy
+              9. Children&apos;s Privacy
             </h2>
             <p className="text-muted-foreground">
               Rainbox is not intended for use by individuals under the age of
@@ -357,7 +357,7 @@ const PrivacyPolicyPage = () => {
         </div>
       </main>
     </div>
-  )
-}
+  );
+};
 
-export default PrivacyPolicyPage
+export default PrivacyPolicyPage;

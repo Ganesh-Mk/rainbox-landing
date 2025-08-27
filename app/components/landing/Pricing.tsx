@@ -1,25 +1,15 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { motion, Variants } from "framer-motion"
-import { ArrowRight, CheckCircle } from "lucide-react"
+import { useState } from "react";
+import { ArrowRight, CheckCircle } from "lucide-react";
 
 const cn = (...inputs: (string | undefined | null | boolean)[]) =>
-  inputs.filter(Boolean).join(" ")
+  inputs.filter(Boolean).join(" ");
 
 const Pricing = () => {
   const [billingCycle, setBillingCycle] = useState<"yearly" | "monthly">(
     "yearly"
-  )
-
-  const cardVariants: Variants = {
-    hidden: { y: 20, opacity: 0 },
-    visible: {
-      y: 0,
-      opacity: 1,
-      transition: { duration: 0.4, ease: "easeOut" }
-    }
-  }
+  );
 
   const otherCards = [
     {
@@ -28,23 +18,23 @@ const Pricing = () => {
       desc: "Get life time access to Rainbox without a subscription",
       price: "$69",
       subtext: "pay once",
-      btnText: "Pay Now"
+      btnText: "Pay Now",
     },
     {
       title: "Gift a friend",
       desc: "Gift Rainbox to your loved ones to make their day special",
       price: "$69",
       subtext: "pay once",
-      btnText: "Gift Now"
+      btnText: "Gift Now",
     },
     {
       title: "Partner Program",
       desc: "Gift a lifetime deal to make their day special",
       price: "30%",
       subtext: "of every sale",
-      btnText: "Join Now"
-    }
-  ]
+      btnText: "Join Now",
+    },
+  ];
 
   return (
     // EVEN MORE compact vertical padding
@@ -123,13 +113,11 @@ const Pricing = () => {
                   "Gmail and Outlook integration",
                   "AI Summaries",
                   "Text to Audio",
-                  "Highlight and bookmarks"
+                  "Highlight and bookmarks",
                 ].map((feature) => (
                   <li key={feature} className="flex items-center gap-2 ">
                     <CheckCircle className="shrink-0 text-blue-500" size={16} />
-                    <span className=" text-muted-foreground">
-                      {feature}
-                    </span>
+                    <span className=" text-muted-foreground">{feature}</span>
                   </li>
                 ))}
               </ul>
@@ -188,7 +176,7 @@ const Pricing = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Pricing
+export default Pricing;

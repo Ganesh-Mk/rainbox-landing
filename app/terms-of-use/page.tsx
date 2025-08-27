@@ -21,11 +21,11 @@ export default function TermsPage() {
           </div>
 
           <p className="text-muted-foreground">
-            Welcome to Rainbox! These Terms of Use ("Terms") govern your access
-            to and use of the Rainbox application and related services
-            ("Services"). By accessing or using our Services, you agree to be
-            bound by these Terms and our Privacy Policy. If you do not agree,
-            please refrain from using our Services.
+            Welcome to Rainbox! These Terms of Use (&quot;Terms&quot;) govern
+            your access to and use of the Rainbox application and related
+            services (&quot;Services&quot;). By accessing or using our Services,
+            you agree to be bound by these Terms and our Privacy Policy. If you
+            do not agree, please refrain from using our Services.
           </p>
 
           {/* Section 1: Account Registration and Security */}
@@ -35,8 +35,8 @@ export default function TermsPage() {
             </h2>
             <ul className="list-disc space-y-2 pl-5 text-muted-foreground">
               <li>
-                <strong className="font-semibold">Eligibility:</strong> You
-                must be at least 13 years old to use Rainbox.
+                <strong className="font-semibold">Eligibility:</strong> You must
+                be at least 13 years old to use Rainbox.
               </li>
               <li>
                 <strong className="font-semibold">Account Information:</strong>{" "}
@@ -177,8 +177,7 @@ export default function TermsPage() {
               </li>
               <li>Transmit any viruses or malicious code.</li>
               <li>
-                Use the Services to transmit unsolicited communications or
-                spam.
+                Use the Services to transmit unsolicited communications or spam.
               </li>
             </ul>
           </div>
@@ -231,8 +230,8 @@ export default function TermsPage() {
             </h2>
             <p className="text-muted-foreground">
               <strong className="font-semibold">Disclaimers:</strong> The
-              Services are provided "as is" without warranties of any kind,
-              either express or implied.
+              Services are provided &quot;as is&quot; without warranties of any
+              kind, either express or implied.
             </p>
             <p className="text-muted-foreground">
               <strong className="font-semibold">
@@ -250,13 +249,14 @@ export default function TermsPage() {
               9. Pay Once / Lifetime Deal Limitations
             </h2>
             <p className="text-muted-foreground">
-              Rainbox offers a Lifetime Plan ("Pay Once") which grants users
-              access to the premium features of the app for the duration of the
-              app's operational life. We reserve the right to update, modify,
-              enhance, or discontinue any part of the Rainbox service or
-              features at our sole discretion and without prior notice. While we
-              strive to maintain and improve the app continuously, we do not
-              guarantee the availability of any specific features indefinitely.
+              Rainbox offers a Lifetime Plan (&quot;Pay Once&quot;) which grants
+              users access to the premium features of the app for the duration
+              of the app&apos;s operational life. We reserve the right to
+              update, modify, enhance, or discontinue any part of the Rainbox
+              service or features at our sole discretion and without prior
+              notice. While we strive to maintain and improve the app
+              continuously, we do not guarantee the availability of any specific
+              features indefinitely.
             </p>
             <div className="space-y-3 pl-4">
               <h3 className="font-semibold text-muted-foreground">
@@ -288,7 +288,7 @@ export default function TermsPage() {
                 <li>
                   <strong className="font-semibold">Advance Notice:</strong> We
                   will make every reasonable effort to provide users with at
-                  least 30 days' notice before the shutdown.
+                  least 30 day&apos;s notice before the shutdown.
                 </li>
                 <li>
                   <strong className="font-semibold">Data Portability:</strong>{" "}
@@ -341,4 +341,4 @@ export default function TermsPage() {
       </main>
     </div>
   );
-};
+}

@@ -71,19 +71,23 @@ const PrivacyPolicyPage = () => {
                 </h3>
                 <ul className="list-disc space-y-2 pl-5 text-muted-foreground">
                   <li>
-                    <strong className="font-semibold">Google API:</strong> We use Google APIs to access
-                    and manage data, such as Gmail filters, labels, and
-                    messages, with your explicit consent.
+                    <strong className="font-semibold">Google API:</strong> We
+                    use Google APIs to access and manage data, such as Gmail
+                    filters, labels, and messages, with your explicit consent.
                   </li>
                   <li>
-                    <strong className="font-semibold">Microsoft Outlook API:</strong> We access Outlook
-                    data with your authorization to provide enhanced
-                    functionality.
+                    <strong className="font-semibold">
+                      Microsoft Outlook API:
+                    </strong>{" "}
+                    We access Outlook data with your authorization to provide
+                    enhanced functionality.
                   </li>
                   <li>
-                    <strong className="font-semibold">Google Gemini API:</strong> We process text and
-                    queries sent to the Google Gemini API to generate summaries
-                    or insights.
+                    <strong className="font-semibold">
+                      Google Gemini API:
+                    </strong>{" "}
+                    We process text and queries sent to the Google Gemini API to
+                    generate summaries or insights.
                   </li>
                 </ul>
               </div>
@@ -124,20 +128,23 @@ const PrivacyPolicyPage = () => {
             </p>
             <ul className="list-disc space-y-2 pl-5 text-muted-foreground">
               <li>
-                <strong className="font-semibold">With Service Providers:</strong> We share data with
-                third-party services such as Google, Microsoft, and Google
-                Gemini to provide core functionalities.
+                <strong className="font-semibold">
+                  With Service Providers:
+                </strong>{" "}
+                We share data with third-party services such as Google,
+                Microsoft, and Google Gemini to provide core functionalities.
               </li>
               <li>
-                <strong className="font-semibold">For Legal Compliance:</strong> We may disclose
-                information if required by law or to protect the rights and
-                safety of our users or the public.
+                <strong className="font-semibold">For Legal Compliance:</strong>{" "}
+                We may disclose information if required by law or to protect the
+                rights and safety of our users or the public.
               </li>
               <li>
-                <strong className="font-semibold">App Store Platforms:</strong> When you use Rainbox
-                through platforms such as Apple App Store or Google Play Store,
-                relevant information may be shared with those platforms as
-                required by their terms of service and privacy policies.
+                <strong className="font-semibold">App Store Platforms:</strong>{" "}
+                When you use Rainbox through platforms such as Apple App Store
+                or Google Play Store, relevant information may be shared with
+                those platforms as required by their terms of service and
+                privacy policies.
               </li>
             </ul>
           </div>
@@ -213,18 +220,18 @@ const PrivacyPolicyPage = () => {
             </h2>
             <ul className="list-disc space-y-2 pl-5 text-muted-foreground">
               <li>
-                <strong className="font-semibold">Hosting and Database:</strong> Your data is stored
-                securely on our infrastructure, complying with industry
-                security standards.
+                <strong className="font-semibold">Hosting and Database:</strong>{" "}
+                Your data is stored securely on our infrastructure, complying
+                with industry security standards.
               </li>
               <li>
-                <strong className="font-semibold">Encryption:</strong> We use encryption protocols to
-                protect data in transit and at rest.
+                <strong className="font-semibold">Encryption:</strong> We use
+                encryption protocols to protect data in transit and at rest.
               </li>
               <li>
-                <strong className="font-semibold">Access Control:</strong> Access to your data is
-                restricted to authorized personnel who require it for
-                operational purposes.
+                <strong className="font-semibold">Access Control:</strong>{" "}
+                Access to your data is restricted to authorized personnel who
+                require it for operational purposes.
               </li>
             </ul>
           </div>
@@ -242,8 +249,8 @@ const PrivacyPolicyPage = () => {
             <ul className="list-disc space-y-2 pl-5 text-muted-foreground">
               <li>The right to access and update your personal information.</li>
               <li>
-                The right to request deletion of your data ("right to be
-                forgotten").
+                The right to request deletion of your data (&quot;right to be
+                forgotten&quot;).
               </li>
               <li>
                 The right to restrict or object to the processing of your
@@ -252,8 +259,7 @@ const PrivacyPolicyPage = () => {
               <li>The right to data portability.</li>
               <li>The right to withdraw consent at any time.</li>
               <li>
-                The right to lodge a complaint with a data protection
-                authority.
+                The right to lodge a complaint with a data protection authority.
               </li>
             </ul>
             <p className="text-muted-foreground">
@@ -288,16 +294,16 @@ const PrivacyPolicyPage = () => {
             </h2>
             <p className="text-muted-foreground">
               We use cookies and similar technologies to enhance your experience
-              and analyze usage patterns. You can manage your cookie
-              preferences through your browser settings. Where required by law,
-              we obtain your consent before setting cookies.
+              and analyze usage patterns. You can manage your cookie preferences
+              through your browser settings. Where required by law, we obtain
+              your consent before setting cookies.
             </p>
           </div>
 
           {/* Section 9: Children's Privacy */}
           <div className="space-y-4">
             <h2 className="text-2xl font-semibold text-muted-foreground">
-              9. Children's Privacy
+              9. Children&apos;s Privacy
             </h2>
             <p className="text-muted-foreground">
               Rainbox is not intended for use by individuals under the age of

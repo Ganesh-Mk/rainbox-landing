@@ -1,45 +1,35 @@
 // app/components/landing/04-Faq.tsx
-'use client';
-import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { Plus, X } from 'lucide-react';
-import { faqItems } from '@/app/data/mockData';
-import { cn } from '@/app/lib/utils';
+"use client"
+import { useState } from "react"
+import { motion, AnimatePresence } from "framer-motion"
+import { Plus, X } from "lucide-react"
+import { faqItems } from "../../data/mockData"
 
 const Faq = () => {
-  const [openIndex, setOpenIndex] = useState<number | null>(0);
+  const [openIndex, setOpenIndex] = useState<number | null>(0)
 
   const handleToggle = (index: number) => {
-    setOpenIndex(openIndex === index ? null : index);
-  };
+    setOpenIndex(openIndex === index ? null : index)
+  }
 
   return (
-    <section className="py-20 md:py-28 bg-brand-gray-100">
-      <div className="container px-4 mx-auto">
-        <motion.div
-          initial={{ y: 20, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ duration: 0.5 }}
-          className="text-center max-w-3xl mx-auto"
-        >
-          <h2 className="text-3xl md:text-4xl font-bold text-brand-gray-800">
+    <section className="  bg-brand-gray-100">
+      <div className="container mx-auto px-4">
+        <motion.div className="mx-auto max-w-5xl text-center">
+          <h2 className="text-brand-gray-800 text-3xl font-bold md:text-4xl">
             Frequently Asked Questions
           </h2>
         </motion.div>
 
-        <motion.div
-          initial={{ y: 20, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className="mt-12 max-w-3xl mx-auto space-y-4"
-        >
+        <motion.div className="mx-auto mt-12 max-w-5xl space-y-4">
           {faqItems.map((item, index) => (
-            <div key={index} className="bg-white rounded-xl border border-brand-gray-200 overflow-hidden">
+            <div
+              key={index}
+              className="border-brand-gray-200 overflow-hidden rounded-2xl border bg-white"
+            >
               <button
                 onClick={() => handleToggle(index)}
-                className="w-full flex justify-between items-center text-left p-6 font-semibold text-lg"
+                className="flex w-full items-center justify-between p-6 text-left text-lg font-semibold"
               >
                 <span>{item.question}</span>
                 <div className="transition-transform duration-300">
@@ -50,12 +40,12 @@ const Faq = () => {
                 {openIndex === index && (
                   <motion.div
                     initial={{ height: 0, opacity: 0 }}
-                    animate={{ height: 'auto', opacity: 1 }}
+                    animate={{ height: "auto", opacity: 1 }}
                     exit={{ height: 0, opacity: 0 }}
-                    transition={{ duration: 0.3, ease: 'easeInOut' }}
+                    transition={{ duration: 0.3, ease: "easeInOut" }}
                     className="overflow-hidden"
                   >
-                    <p className="px-6 pb-6 text-brand-gray-500">
+                    <p className="px-6 pb-6 text-muted-foreground">
                       {item.answer}
                     </p>
                   </motion.div>
@@ -66,7 +56,7 @@ const Faq = () => {
         </motion.div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Faq;
+export default Faq

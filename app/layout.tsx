@@ -16,6 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
+      <head>
+        <link rel="shortcut icon" href="/logo-sm.png" type="image/png" />
+      </head>
       <body className={`${inter.variable} font-sans`}>
         {children}
       </body>
